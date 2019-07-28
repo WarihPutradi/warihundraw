@@ -1,0 +1,315 @@
+@font-face {
+    font-family: 'Arcon';
+    src: url('http://localhost/fonts/Arcon-Regular.otf')
+}
+
+@font-face {
+    font-family: 'BonvenoCF';
+    src: url('BonvenoCF-Light.otf')
+}
+
+* {
+    font-family: 'Arcon', monospace, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.navbar-brand {
+    z-index: 6;
+    color: #fff !important;
+    font-size: 1rem !important;
+    margin-left: 10px;
+}
+
+.this {
+    z-index: -1;
+    height: 100px;
+    width: 70px;
+    position: absolute;
+    background-color: #42B3D6;
+}
+
+.nav-button-custom {
+    background: none;
+    border: none;
+}
+
+.oks {
+    position: relative;
+}
+
+.bgku {
+    background-color: #EEF7F8;
+}
+
+.left {
+    padding: 200px 0;
+}
+
+.nav-item {
+    padding: 0 5px;
+}
+
+h1 {
+    letter-spacing: 6px;
+    font-size: 4rem;
+    padding: 10px 0;
+}
+
+.left p {
+    font-size: 14px;
+}
+
+.jjk {
+    margin-left: 50%;
+    transform: translate(-20%, 0)
+}
+
+.right img {
+    margin-top: 150px;
+    margin-left: 200px;
+    width: 100%;
+}
+
+.bgku {
+    position: relative;
+}
+
+.bgku .container {
+    display: flex;
+}
+
+.container2 .container {
+    padding: 200px 0;
+}
+
+.wrapper {
+    box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 00.19);
+    display: flex;
+}
+
+.wrapper .left {
+    margin-right: 0;
+    background-color: #fff;
+    padding: 20px 0 !important;
+    position: relative;
+    width: 50%;
+}
+
+.left i {
+    margin-top: 1rem;
+    margin-left: 1rem;
+    position: absolute;
+}
+
+.wrapper .left h3 {
+    color: #42B3D6;
+    padding-top: 100px;
+    margin-bottom: 2rem;
+}
+
+.less {
+    margin-bottom: 6rem;
+}
+
+.input {
+    width: 360px;
+    height: 50px;
+    margin-bottom: 33px;
+    border-color: #BCE0FD;
+    border-style: solid;
+    padding: 10px 0;
+    text-indent: 3rem;
+}
+
+.socc {
+    position: relative !important;
+    margin-top: 0 !important;
+    margin-left: 0 !important;
+    margin-bottom: 4rem!important;
+}
+
+.wrapper .right {
+    background-color: #EEF7F8;
+    width: 50%;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.wrapper .right img {
+    margin-top: 160px !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    margin-bottom: 0 !important;
+    width: 300px;
+    height: 200px;
+}
+
+.container2 {
+    background-color: #EEF7F8;
+}
+
+.wrapper .right p {
+    padding: 0 4rem;
+    font-size: 14px;
+}
+
+.inner {
+    margin-left: 20%;
+}
+
+.inner span {
+    margin-left: 20px;
+    font-size: 10px;
+}
+
+.sign-up {
+    border-radius: 4px;
+    height: 40px;
+    width: 120px;
+    font-size: 10px;
+    letter-spacing: 1px;
+    font-family: 'Arcon';
+    background: #42B3D6;
+    color: #fff;
+    border: none;
+}
+
+.sign-in {
+    margin-left: 20px;
+    border: none;
+    height: 40px;
+    font-size: 10px;
+    letter-spacing: 1px;
+    font-family: 'Arcon';
+    background: none;
+    color: #000;
+    border: none;
+}
+
+.wp-button {
+    border-radius: 4px;
+    height: 40px;
+    width: 120px;
+    font-size: 10px;
+    letter-spacing: 1px;
+    font-family: 'Arcon';
+    background: none;
+    color: #42B3D6;
+    border: 1px solid #42B3D6;
+}
+
+.bottom .container .card-deck .card {
+    border: none;
+    box-shadow: 0px 0px 8px 3px rgba(0, 0, 0, 0.08);
+    text-align: center;
+}
+
+.bottom .container .card-deck .card .online {
+    width: 0.7rem;
+    height: 0.7rem;
+    background-color: #42B3D6;
+    border-radius: 50%;
+    margin-top: 1.5rem;
+    margin-left: 1.5rem;
+    /* position: absolute  */
+}
+
+.bottom .container .card-deck .card .card-img-top {
+    margin: auto auto;
+    width: 100px;
+    height: 100px;
+}
+
+.bots {
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.bottom .container h2 {
+    margin: 4rem auto;
+}
+
+.footer {
+    margin-top: 6rem !important;
+}
+
+.footer .container .warp {
+    display: flex;
+}
+
+.img-bot {
+    width: 50px;
+    height: 50px;
+}
+
+.project a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.project {
+    margin-left: 4rem;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    margin-right: 2rem;
+    color: #000000;
+}
+
+@media(max-width :991px) {
+    .bgku .right img {
+        margin-top: 0px;
+        margin-left: 0px;
+        margin-bottom: 5rem;
+    }
+    .bgku .left {
+        padding-bottom: 3rem !important;
+    }
+    .card-deck {
+        display: block;
+    }
+    .card-deck .card {
+        margin-bottom: 50px;
+    }
+    .this {
+        display: none;
+    }
+    .navbar-brand {
+        color: #000000 !important;
+        margin-left: 0 !important;
+    }
+    .bgku .container {
+        display: block;
+    }
+    .wrapper {
+        display: block !important;
+    }
+    .container2 .container {
+        display: block !important;
+    }
+    .wrapper .left {
+        width: 100% !important;
+        display: block;
+    }
+    .wrapper .right {
+        width: 100% !important;
+        display: block;
+    }
+}
+
+@media(max-width :768px) {
+    h1 {
+        font-size: 3rem;
+    }
+    .footer .container .warp {
+        display: block;
+    }
+    .inner {
+        margin-left: 20% !important;
+    }
+    .inner input {
+        width: 320px;
+    }
+}

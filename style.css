@@ -315,6 +315,6 @@ h1 {
 }
 @media(max-width :500px) {
     .inner {
-        margin-left: 2rem;
+        margin-left: 2rem !important;
     }
 }

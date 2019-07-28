@@ -313,3 +313,8 @@ h1 {
         width: 320px;
     }
 }
+@media(max-width :500px) {
+    .inner {
+        margin-left: 2rem;
+    }
+}

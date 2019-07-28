@@ -307,7 +307,7 @@ h1 {
         display: block;
     }
     .inner {
-        margin-left: 20% !important;
+        margin-left: 20% ;
     }
     .inner input {
         width: 320px;
